@@ -1,11 +1,11 @@
 def square_array(array)
 
-  square_array=""
+  new_array=""
   array.each do |number|
   square=number **2
   puts "#{square}"
 
-  square_array.push(square)
+  new_array.push(square)
   end
   return square_array
 end
