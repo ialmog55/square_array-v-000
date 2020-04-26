@@ -5,7 +5,7 @@ def square_array(array)
   square=number **2
   puts "#{square}"
 
-  new_array.push(square)
+  new_array << square
   end
   return square_array
 end
