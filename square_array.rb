@@ -2,8 +2,8 @@ def square_array(array)
 
   square_array=""
   array.each do |number|
-  square=number*number
-  puts "#{{square}}"
+  square=number.to_r**2
+  puts "#{square}"
 
   square_array << square
   end
